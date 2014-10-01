@@ -1,0 +1,13 @@
+body {
+    overflow-y: visible;
+}
+.nav-item:hover, .nav-item>a:hover{
+    background-color: #fff;
+    color: #444;
+}
+a {
+    color: #444;
+}
+.promo {
+    margin-top: 69px;
+}
