@@ -6,7 +6,7 @@ $message = $_POST['message'];
 
 
 $con = mysqli_connect(
-    "chrisperko.net",
+    "localhost",
     "apollocanis",
     "contactpw123@",
     "apollocanis");
@@ -18,7 +18,10 @@ if(mysqli_connect_errno()) {
 
 mysqli_query(
     $con,
-    "INSERT INTO contact VALUES ($name, $email, $message, now(), 0)");
+    "INSERT INTO `contact` 
+		(`name`, `email`, `message`, `date`, `viewed`)
+		VALUES ('$name', '$email', '$message', NOW(), '0')");
+
 
 mysqli_close($con);
 
