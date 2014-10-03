@@ -35,6 +35,10 @@ body {
 .pattern .content {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+    -webkit-transition: all 0.5s;-moz-transition: all 0.5s;-ms-transition: all 0.5s;-o-transition: all 0.5s;transition: all 0.5s;
+}
+.pattern .content:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .name {
     color: #fff;
