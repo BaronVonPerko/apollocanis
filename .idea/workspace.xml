@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4c7e3c-9c5e-4fae-8a88-d45c1f8d530e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/AC_landscape.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scroll.js" />
-      <change type="DELETED" beforePath="C:\Users\chris.perko\git\apollocanis.com\images\profile.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="apollocanis.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1173">
+            <state line="8" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.20668693" vertical-offset="0" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
@@ -42,16 +37,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="51" selection-start="417" selection-end="417" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="2788">
+            <state line="19" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="2788">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scroll.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scroll.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.25835866" vertical-offset="0" max-vertical-offset="658">
+            <state line="10" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -73,9 +68,9 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/contact.js" />
         <option value="$PROJECT_DIR$/contact.php" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scroll.js" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -232,7 +227,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="243" width="911" height="803" extended-state="1" />
+    <frame x="200" y="243" width="911" height="803" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -315,23 +310,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/scroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="12" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1173">
+        <state line="10" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="417" selection-end="417" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="2788">
+        <state line="19" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="2788">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scroll.js">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="509" selection-end="509" vertical-scroll-proportion="0.25835866" vertical-offset="0" max-vertical-offset="658">
+        <state line="8" column="13" selection-start="122" selection-end="122" vertical-scroll-proportion="0.20668693" vertical-offset="0" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
