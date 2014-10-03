@@ -29,10 +29,21 @@ body {
     padding: 90px 0;
 }
 .pattern {
-    background-image: url('images/blue-pattern.jpg');
+    background-image: url('images/blue-bg.jpg');
     border: 2px solid #041259;
 }
 .pattern .content {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+}
+.name {
+    color: #fff;
+    font-size: 20pt;
+}
+.title {
+    color: #ddd;
+    font-size: 16pt;
+}
+.black {
+    color: #000;
 }
