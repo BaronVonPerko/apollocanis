@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4c7e3c-9c5e-4fae-8a88-d45c1f8d530e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="apollocanis.com.iws" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.59422493" vertical-offset="238" max-vertical-offset="986">
+            <state line="11" column="20" selection-start="152" selection-end="152" vertical-scroll-proportion="0.28419453" vertical-offset="0" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -37,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="34" selection-start="4796" selection-end="4796" vertical-scroll-proportion="-34.0" vertical-offset="1241" max-vertical-offset="2771">
+            <state line="26" column="50" selection-start="856" selection-end="856" vertical-scroll-proportion="-13.076923" vertical-offset="102" max-vertical-offset="2890">
               <folding />
             </state>
           </provider>
@@ -302,14 +303,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="34" selection-start="4796" selection-end="4796" vertical-scroll-proportion="-34.0" vertical-offset="1241" max-vertical-offset="2771">
+        <state line="26" column="50" selection-start="856" selection-end="856" vertical-scroll-proportion="-13.076923" vertical-offset="102" max-vertical-offset="2890">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.59422493" vertical-offset="238" max-vertical-offset="986">
+        <state line="11" column="20" selection-start="152" selection-end="152" vertical-scroll-proportion="0.28419453" vertical-offset="0" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
