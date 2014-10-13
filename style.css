@@ -1,6 +1,10 @@
 body {
     overflow-y: visible;
     background: #eee;
+    font-family: Calibri;
+}
+p{
+    font-size: 12pt;
 }
 .header{
     background: #eeeeee;
@@ -63,4 +67,7 @@ body {
 }
 .about-img {
     width: 500px;
+}
+.wft-img{
+    width: 400px;
 }
