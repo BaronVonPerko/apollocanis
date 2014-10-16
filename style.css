@@ -71,3 +71,10 @@ p{
 .wft-img{
     width: 400px;
 }
+.email-info {
+    font-size: 16pt;
+    padding-bottom: 25px;
+}
+.email-info a {
+    color: #F0CE3C;
+}
