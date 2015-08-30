@@ -1,3 +1,4 @@
+
 header {
   height: 400px;
   position: relative;
@@ -17,11 +18,54 @@ header canvas {
   height: 100%;
 }
 
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}
+.items .item {
+  height: 500px;
+  text-align: center;
+  flex-grow: 1;
+  background-size: 100% 100%;
+  background-position: center;
+  transition: background-size 300ms ease-in-out;
+}
+.items .item:hover {
+  background-size: 120% 120%;
+  background-position: center;
+  cursor: pointer;
+}
+
 html {
   font-family: sans-serif;
 }
 body {
   margin: 0;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}
+.items .item {
+  height: 500px;
+  text-align: center;
+  flex-grow: 1;
+  background-size: 100% 100%;
+  background-position: center;
+  transition: background-size 300ms ease-in-out;
+}
+.items .item:hover {
+  background-size: 120% 120%;
+  background-position: center;
+  cursor: pointer;
 }
 header {
   height: 400px;

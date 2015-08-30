@@ -1,0 +1,23 @@
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+
+  .item {
+    height: 500px;
+    text-align: center;
+    flex-grow: 1;
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background-size 300ms ease-in-out;
+
+    &:hover {
+      background-size: 120% 120%;
+      background-position: center;
+      cursor: pointer;
+    }
+  }
+}
