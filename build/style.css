@@ -41,8 +41,12 @@ header canvas {
   height: 100%;
 }
 
+section {
+  padding: 40px 0;
+}
 section h2 {
   text-align: center;
+  font-size: 28pt;
 }
 .items {
   display: flex;
@@ -56,9 +60,9 @@ section h2 {
     flex-wrap: wrap;
   }
 }
-.items .item {
+.items a.item {
   height: 500px;
-  max-width: 300px;
+  width: 300px;
   text-align: center;
   flex-grow: 1;
   background-size: 100% 100%;
@@ -67,31 +71,30 @@ section h2 {
   position: relative;
 }
 @media (max-width: 900px) {
-  .items .item {
+  .items a.item {
     flex: none;
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
   }
 }
-.items .item .info {
+.items a.item .info {
   padding-top: 100px;
   opacity: 0;
   pointer-events: none;
   color: white;
   transition: all 200ms ease-in-out;
 }
-.items .item:after {
+.items a.item:after {
   content: '';
   opacity: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: all 200ms ease-in-out;
 }
-.items .item:hover {
+.items a.item:hover {
   background-size: 120% 120%;
   cursor: pointer;
   z-index: 0;
 }
-.items .item:hover:after {
+.items a.item:hover:after {
   content: '';
   opacity: 1;
   position: absolute;
@@ -101,7 +104,7 @@ section h2 {
   left: 0;
   z-index: -1;
 }
-.items .item:hover .info {
+.items a.item:hover .info {
   opacity: 1;
   z-index: 20;
 }
@@ -128,8 +131,12 @@ h3 {
 a {
   text-decoration: none;
 }
+section {
+  padding: 40px 0;
+}
 section h2 {
   text-align: center;
+  font-size: 28pt;
 }
 .items {
   display: flex;
@@ -143,9 +150,9 @@ section h2 {
     flex-wrap: wrap;
   }
 }
-.items .item {
+.items a.item {
   height: 500px;
-  max-width: 300px;
+  width: 300px;
   text-align: center;
   flex-grow: 1;
   background-size: 100% 100%;
@@ -154,31 +161,30 @@ section h2 {
   position: relative;
 }
 @media (max-width: 900px) {
-  .items .item {
+  .items a.item {
     flex: none;
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
   }
 }
-.items .item .info {
+.items a.item .info {
   padding-top: 100px;
   opacity: 0;
   pointer-events: none;
   color: white;
   transition: all 200ms ease-in-out;
 }
-.items .item:after {
+.items a.item:after {
   content: '';
   opacity: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: all 200ms ease-in-out;
 }
-.items .item:hover {
+.items a.item:hover {
   background-size: 120% 120%;
   cursor: pointer;
   z-index: 0;
 }
-.items .item:hover:after {
+.items a.item:hover:after {
   content: '';
   opacity: 1;
   position: absolute;
@@ -188,7 +194,7 @@ section h2 {
   left: 0;
   z-index: -1;
 }
-.items .item:hover .info {
+.items a.item:hover .info {
   opacity: 1;
   z-index: 20;
 }
