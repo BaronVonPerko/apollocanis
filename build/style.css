@@ -22,22 +22,56 @@ header canvas {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  max-width: 900px;
   margin: 0 auto;
   align-items: center;
 }
 .items .item {
   height: 500px;
+  max-width: 300px;
   text-align: center;
   flex-grow: 1;
   background-size: 100% 100%;
   background-position: center;
-  transition: background-size 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+.items .item .info {
+  margin-top: 100px;
+  opacity: 0;
+  pointer-events: none;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+.items .item:after {
+  content: '';
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 200ms ease-in-out;
 }
 .items .item:hover {
   background-size: 120% 120%;
-  background-position: center;
   cursor: pointer;
+  z-index: 0;
+}
+.items .item:hover:after {
+  content: '';
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.items .item:hover .info {
+  opacity: 1;
+  z-index: 20;
+}
+.items-3 {
+  max-width: 900px;
+}
+.items-2 {
+  max-width: 600px;
 }
 
 html {
@@ -50,22 +84,56 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  max-width: 900px;
   margin: 0 auto;
   align-items: center;
 }
 .items .item {
   height: 500px;
+  max-width: 300px;
   text-align: center;
   flex-grow: 1;
   background-size: 100% 100%;
   background-position: center;
-  transition: background-size 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+.items .item .info {
+  margin-top: 100px;
+  opacity: 0;
+  pointer-events: none;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+.items .item:after {
+  content: '';
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 200ms ease-in-out;
 }
 .items .item:hover {
   background-size: 120% 120%;
-  background-position: center;
   cursor: pointer;
+  z-index: 0;
+}
+.items .item:hover:after {
+  content: '';
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.items .item:hover .info {
+  opacity: 1;
+  z-index: 20;
+}
+.items-3 {
+  max-width: 900px;
+}
+.items-2 {
+  max-width: 600px;
 }
 header {
   height: 400px;
