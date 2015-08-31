@@ -7,6 +7,10 @@
   margin: 0 auto;
   align-items: center;
 
+  @media(max-width: 900px) {
+    flex-wrap: wrap;
+  }
+
   .item {
     height: 500px;
     max-width: 300px;
@@ -16,6 +20,12 @@
     background-position: center;
     transition: all @transitionSpeed ease-in-out;
     position: relative;
+
+    @media(max-width: 900px) {
+      flex: none;
+      max-width: 100%;
+      min-width: 100%;
+    }
 
     .info {
       margin-top: 100px;

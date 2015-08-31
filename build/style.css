@@ -12,6 +12,16 @@ header h1 {
   color: white;
   font-size: 50pt;
 }
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 38pt;
+  }
+}
+@media (max-width: 340px) {
+  header h1 {
+    font-size: 24pt;
+  }
+}
 header canvas {
   background-color: black;
   width: 100%;
@@ -25,6 +35,11 @@ header canvas {
   margin: 0 auto;
   align-items: center;
 }
+@media (max-width: 900px) {
+  .items {
+    flex-wrap: wrap;
+  }
+}
 .items .item {
   height: 500px;
   max-width: 300px;
@@ -34,6 +49,13 @@ header canvas {
   background-position: center;
   transition: all 200ms ease-in-out;
   position: relative;
+}
+@media (max-width: 900px) {
+  .items .item {
+    flex: none;
+    max-width: 100%;
+    min-width: 100%;
+  }
 }
 .items .item .info {
   margin-top: 100px;
@@ -87,6 +109,11 @@ body {
   margin: 0 auto;
   align-items: center;
 }
+@media (max-width: 900px) {
+  .items {
+    flex-wrap: wrap;
+  }
+}
 .items .item {
   height: 500px;
   max-width: 300px;
@@ -96,6 +123,13 @@ body {
   background-position: center;
   transition: all 200ms ease-in-out;
   position: relative;
+}
+@media (max-width: 900px) {
+  .items .item {
+    flex: none;
+    max-width: 100%;
+    min-width: 100%;
+  }
 }
 .items .item .info {
   margin-top: 100px;
@@ -147,6 +181,16 @@ header h1 {
   text-align: center;
   color: white;
   font-size: 50pt;
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 38pt;
+  }
+}
+@media (max-width: 340px) {
+  header h1 {
+    font-size: 24pt;
+  }
 }
 header canvas {
   background-color: black;
