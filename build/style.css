@@ -73,7 +73,6 @@ section h2 {
 @media (max-width: 900px) {
   .items a.item {
     flex: none;
-    width: 100%;
   }
 }
 .items a.item .info {
@@ -163,7 +162,6 @@ section h2 {
 @media (max-width: 900px) {
   .items a.item {
     flex: none;
-    width: 100%;
   }
 }
 .items a.item .info {
