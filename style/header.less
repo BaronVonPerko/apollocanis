@@ -2,19 +2,34 @@ header {
   height: 400px;
   position: relative;
 
-  h1{
+  .header-text{
     position: absolute;
     top: 50px; left: 0; right: 0;
     text-align: center;
     color: white;
-    font-size: 50pt;
 
-    @media(max-width: 500px) {
-      font-size: 38pt;
+    h1 {
+      font-size: 50pt;
+
+      @media(max-width: 500px) {
+        font-size: 38pt;
+      }
+
+      @media(max-width: 340px) {
+        font-size: 24pt;
+      }
     }
 
-    @media(max-width: 340px) {
-      font-size: 24pt;
+    h2 {
+      font-size: 22pt;
+
+      @media(max-width: 500px) {
+        font-size: 16pt;
+      }
+
+      @media(max-width: 340px) {
+        font-size: 12pt;
+      }
     }
   }
 

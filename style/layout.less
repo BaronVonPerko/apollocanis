@@ -2,7 +2,7 @@
 
 section {
 
-  padding: 40px 0;
+  padding: 10px 0;
 
   h2 {
     text-align: center;
@@ -81,4 +81,10 @@ section {
 }
 .items-2 {
   max-width: calc(600px + 12px);
+}
+
+.items-2, .items-3 {
+    @media (max-width: 650px) {
+      max-width: calc(300px + 6px);
+    }
 }

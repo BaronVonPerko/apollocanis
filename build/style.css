@@ -16,23 +16,38 @@ header {
   height: 400px;
   position: relative;
 }
-header h1 {
+header .header-text {
   position: absolute;
   top: 50px;
   left: 0;
   right: 0;
   text-align: center;
   color: white;
+}
+header .header-text h1 {
   font-size: 50pt;
 }
 @media (max-width: 500px) {
-  header h1 {
+  header .header-text h1 {
     font-size: 38pt;
   }
 }
 @media (max-width: 340px) {
-  header h1 {
+  header .header-text h1 {
     font-size: 24pt;
+  }
+}
+header .header-text h2 {
+  font-size: 22pt;
+}
+@media (max-width: 500px) {
+  header .header-text h2 {
+    font-size: 16pt;
+  }
+}
+@media (max-width: 340px) {
+  header .header-text h2 {
+    font-size: 12pt;
   }
 }
 header canvas {
@@ -42,7 +57,7 @@ header canvas {
 }
 
 section {
-  padding: 40px 0;
+  padding: 10px 0;
 }
 section h2 {
   text-align: center;
@@ -118,6 +133,12 @@ section h2 {
 }
 .items-2 {
   max-width: calc(612px);
+}
+@media (max-width: 650px) {
+  .items-2,
+  .items-3 {
+    max-width: calc(306px);
+  }
 }
 
 html {
@@ -137,7 +158,7 @@ a {
   text-decoration: none;
 }
 section {
-  padding: 40px 0;
+  padding: 10px 0;
 }
 section h2 {
   text-align: center;
@@ -214,27 +235,48 @@ section h2 {
 .items-2 {
   max-width: calc(612px);
 }
+@media (max-width: 650px) {
+  .items-2,
+  .items-3 {
+    max-width: calc(306px);
+  }
+}
 header {
   height: 400px;
   position: relative;
 }
-header h1 {
+header .header-text {
   position: absolute;
   top: 50px;
   left: 0;
   right: 0;
   text-align: center;
   color: white;
+}
+header .header-text h1 {
   font-size: 50pt;
 }
 @media (max-width: 500px) {
-  header h1 {
+  header .header-text h1 {
     font-size: 38pt;
   }
 }
 @media (max-width: 340px) {
-  header h1 {
+  header .header-text h1 {
     font-size: 24pt;
+  }
+}
+header .header-text h2 {
+  font-size: 22pt;
+}
+@media (max-width: 500px) {
+  header .header-text h2 {
+    font-size: 16pt;
+  }
+}
+@media (max-width: 340px) {
+  header .header-text h2 {
+    font-size: 12pt;
   }
 }
 header canvas {
